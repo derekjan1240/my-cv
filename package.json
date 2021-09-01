@@ -1,20 +1,33 @@
 {
-  "name": "my-cv",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "11.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
-  }
+	"name": "my-cv",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"contentful": "^8.4.2",
+		"next": "11.1.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"eslint": "7.32.0",
+		"eslint-config-airbnb": "^18.2.1",
+		"eslint-config-next": "11.1.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-react": "^7.25.1",
+		"prettier": "^2.3.2"
+	},
+	"prettier": {
+		"insertPragma": true,
+		"singleQuote": true,
+		"useTabs": true,
+		"tabWidth": 4,
+		"semi": true
+	}
 }
